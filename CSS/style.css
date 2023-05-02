@@ -15,7 +15,54 @@
 
 :root{
   --bgcolor: black;
+  --options: white;
+  --bg-view-opt: rgb(74,74,74);
   --share: rgb(75,200,0);
   --end-meet: rgb(225,29,52);
-  
+
+}
+
+
+/* GENERICS */
+
+body{
+  font-family: sans-serif;
+}
+
+
+a{
+  text-decoration: none;
+  color: var(--options);
+}
+
+/* UTILITY */
+
+.bd{
+  border: 1px dashed white;
+}
+
+
+.bgcolor{
+  background-color: var(--bgcolor);
+}
+
+
+
+/* HEADER */
+
+.display-opt{
+  text-align: right;
+  padding: 15px;
+}
+
+
+.display-opt a{
+  background-color: var(--bg-view-opt);
+  padding: 4px;
+  border-radius: 5px;
+}
+
+
+.display-opt span{
+  margin: 0 2px;
 }
