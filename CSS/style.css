@@ -1,0 +1,21 @@
+
+
+/* RESET */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* Custom properties */
+
+:root{
+  --bgcolor: black;
+  --share: rgb(75,200,0);
+  --end-meet: rgb(225,29,52);
+  
+}
