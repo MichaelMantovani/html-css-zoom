@@ -30,6 +30,13 @@ body{
 }
 
 
+
+footer{
+  background-color: rgb(34,34,34);
+}
+
+
+
 a{
   text-decoration: none;
   color: var(--options);
@@ -87,13 +94,10 @@ h3{
   margin: 0 2px;
 }
 
-
+/* MAIN */
 
 /* FOOTER */
 
-footer{
-  background-color: grey;
-}
 
 .footer-opt{
   display: flex;
