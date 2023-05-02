@@ -35,6 +35,22 @@ a{
   color: var(--options);
 }
 
+i{
+  font-size: 30px;
+}
+
+.fa-angle-up{
+  font-size: 10px;
+  margin-left: 20px;
+}
+
+h3{
+  color: var(--options);
+  font-size: 16px;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
 /* UTILITY */
 
 .bd{
@@ -62,7 +78,73 @@ a{
   border-radius: 5px;
 }
 
+.display-opt i{
+  font-size: 16px;
+}
+
 
 .display-opt span{
   margin: 0 2px;
+}
+
+
+
+/* FOOTER */
+
+footer{
+  background-color: grey;
+}
+
+.footer-opt{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.user-opt{
+  display: flex;
+}
+
+
+
+.audio, .video{
+  margin: 0px 10px;
+}
+
+
+.group-opt{
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.fa-share{
+  color: var(--share);
+}
+
+
+.group-opt div{
+  text-align: center;
+}
+
+
+.fa-share-from-square{
+  color: var(--share);
+}
+
+.end-opt{
+  background-color: rgb(74,74,74);
+  display: flex;
+  align-items: center;
+}
+
+.end-opt h3{
+  padding: 0;
+  color: var(--end-meet);
+  vertical-align: middle;
+}
+
+
+.footer-opt div{
+  padding: 10px;
 }
